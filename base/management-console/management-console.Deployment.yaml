@@ -35,7 +35,7 @@ spec:
           value: disable
         - name: PGUSER
           value: sg
-        image: index.docker.io/sourcegraph/management-console:3.9.1@sha256:0fd4fe5017a00b090307dab6442ce94883e6f9d006d734b6ef49cd02aadb992e
+        image: index.docker.io/sourcegraph/management-console:3.11.0-rc.1@sha256:ee7f3551f255ca43d9079ed12d8400ebf45b8c04efd5b777bafe139b638c7a11
         terminationMessagePolicy: FallbackToLogsOnError
         name: management-console
         ports:

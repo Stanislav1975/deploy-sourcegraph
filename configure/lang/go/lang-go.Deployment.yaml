@@ -40,7 +40,7 @@ spec:
               fieldPath: metadata.name
         - name: CACHE_DIR
           value: /mnt/cache/$(POD_NAME)
-        image: index.docker.io/sourcegraph/lang-go:insiders@sha256:d1ebae26660ff5329e65de624c2e01ed5c68cf4c9393935be9329e347c7e458d
+        image: index.docker.io/sourcegraph/lang-go:insiders@sha256:9dcf87c74974b7265e1f8f9635c4bc2f72aa6ecc73697ab76430725c0cfc1463
         livenessProbe:
           initialDelaySeconds: 5
           tcpSocket:
