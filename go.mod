@@ -4,7 +4,7 @@ go 1.13
 
 require (
 	github.com/docker/docker v1.13.1 // indirect
-	github.com/frankban/quicktest v1.4.2
+	github.com/frankban/quicktest v1.14.4
 	github.com/pulumi/pulumi v1.0.0
 	github.com/sethgrid/pester v0.0.0-20190127155807-68a33a018ad0
 	github.com/stretchr/testify v1.4.0 // indirect
