@@ -36,7 +36,7 @@ spec:
               fieldPath: metadata.name
         - name: CACHE_DIR
           value: /home/node/cache/$(POD_NAME)
-        image: index.docker.io/sourcegraph/lang-typescript:insiders@sha256:af71acfe2f986f0b657d855669d8551be799b121e886c325e287d40dbc59d744
+        image: index.docker.io/sourcegraph/lang-typescript:insiders@sha256:6715520b2a10191f1f5968a03199841c67d3304d21b56afe97064c39566efd69
         imagePullPolicy: IfNotPresent
         livenessProbe:
           initialDelaySeconds: 10
